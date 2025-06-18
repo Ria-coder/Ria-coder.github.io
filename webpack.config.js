@@ -7,7 +7,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 // Определяем режим (development/production)
 const isDevelopment = process.env.NODE_ENV !== 'production';
 // Имя репозитория для GitHub Pages (замените на своё)
-const repoName = 'LittleTimur.github.io';
+const repoName = 'Ria-coder.github.io';
 
 module.exports = {
     entry: './src/index.tsx',
@@ -66,8 +66,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                    from: "./src/img",
-                    to: "img",
+                    from: "./src/images",
+                    to: "images",
                     noErrorOnMissing: true
                 }
             ]
