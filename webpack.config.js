@@ -66,7 +66,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                    from: "./src/images",
+                    from: "./images",
                     to: "images",
                     noErrorOnMissing: true
                 }
